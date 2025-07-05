@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["gt_mapmaker", "gt_mapmaker.data"]
+[tool.setuptools.package-data]
+gt_mapmaker = ["data/*.geojson", "data/grids/*.pickle"]
+[project]
+name = "gt_mapmaker"
+version = "0.0.1"
+description = "Geotastic map maker"
+dependencies = ["gt_api", "tqdm", "shapely", "matplotlib", "numpy", "geopandas", "mapbox_earcut"]
+

@@ -1,0 +1,9 @@
+token: 867545c8dffe47aa8647062329975cda38cb28297d26428ed2a28d6349af0105
+map_type: single
+map_id: 17667
+drop_picker: drop_picker.py
+num_threads: 128
+num_drops: 2500
+global_timeout: 300
+drop_timeout: 2
+import_method: override

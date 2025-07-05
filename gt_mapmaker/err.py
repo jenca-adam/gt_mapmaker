@@ -1,0 +1,2 @@
+class MapMakerError(Exception):
+    pass
